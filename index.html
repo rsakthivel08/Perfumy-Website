@@ -1,0 +1,279 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perfumy - Discover luxury perfumes with elegance and style. Shop top brands and exclusive collections online.">
+    <title>Perfumy | Luxury Fragrance Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1515/1515550.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <h1 class="logo">Perfumy</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search -->
+    <section class="searchbar">
+        <input type="text" placeholder="Search for perfumes...">
+        <button>Search</button>
+    </section>
+    
+    <!-- Products -->
+    <section class="products">
+        <h2>Men's Cologne</h2>
+        <label for="mens-brand">Choose a brand:</label>
+        <select id="mens-brand">
+            <option value="all">All</option>
+            <option value="vogue">Vogue</option>
+            <option value="dior">Dior</option>
+            <option value="ck">Calvin Klein</option>
+            <option value="tomford">Tom Ford</option>
+        </select>
+
+        <div class="product-grid" id="mens-products">
+
+            <div class="box" data-brand="vogue">
+                <img src="https://royalorchidperfumes.com/wp-content/uploads/2023/05/IV-poster.jpg" alt="Vogue Cologne">
+                <h3>Vogue Classic</h3>
+                <p>Fresh masculine scent with citrus and woody undertones.</p>
+                <p class="price">₹2,299</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="vogue">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.9XT0XQUV7m6k_qh2Pfm3AAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Vogue Cologne 3">
+            <h3>Vogue Night</h3>
+            <p>Bold notes of pepper, patchouli, and leather.</p>
+            <p class="price">₹3,099</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="dior">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.H4D4yzYKBIKb050wyZVvLQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Dior Cologne">
+                <h3>Dior Homme</h3>
+                <p>Elegant blend of leather, iris, and amber notes.</p>
+                <p class="price">₹4,199</p>
+                <button>Add to Cart</button>
+            </div>
+
+             <div class="box" data-brand="dior">
+            <img src="https://parfumdrops.com/wp-content/uploads/2020/08/sauvage_parfum_100ml-4.jpg" alt="Dior Cologne 2">
+            <h3>Dior Sauvage</h3>
+            <p>Iconic cologne with bergamot, pepper, and woody amber.</p>
+            <p class="price">₹5,299</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="dior">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.lkUiv0pUwYZy4vel-NZu_gHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Dior Cologne 3">
+            <h3>Dior Intense</h3>
+            <p>Deep blend of lavender, iris, and vetiver.</p>
+            <p class="price">₹4,899</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="ck">
+                <img src="https://i5.walmartimages.com/asr/7464450b-6f3b-4351-9a24-9371fbd54e40_1.6bf498af35b7cadb56e7ec6bccf543b9.jpeg" alt="CK Cologne">
+                <h3>Calvin Klein Intense</h3>
+                <p>Modern cologne with fresh aquatic tones and spice.</p>
+                <p class="price">₹3,099</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="ck">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.nsTkdRFBXA5uPUPiJSy4DQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="CK Cologne 2">
+            <h3>Calvin Klein Eternity</h3>
+            <p>Green, crisp cologne with lavender and mandarin.</p>
+            <p class="price">₹2,799</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="ck">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.TGOiKYyU3a1RMJjQ0lYnqAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="CK Cologne 3">
+            <h3>Calvin Klein One</h3>
+            <p>Fresh, unisex fragrance with pineapple and green tea.</p>
+            <p class="price">₹2,499</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="tomford">
+                <img src="https://cdn.shopify.com/s/files/1/0259/7733/products/tom-ford-noir-de-noir-100ml_1024x1024.png?v=1554870982" alt="Tom Ford Cologne">
+                <h3>Tom Ford Noir</h3>
+                <p>Luxurious oriental fragrance with oud and amber.</p>
+                <p class="price">₹5,299</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="tomford">
+            <img src="https://m.media-amazon.com/images/I/61qbk9g-tzL._SL1500_.jpg" alt="Tom Ford 2">
+            <h3>Tom Ford Oud Wood</h3>
+            <p>Rare oud wood mixed with sandalwood and vanilla.</p>
+            <p class="price">₹6,199</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="tomford">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.OL_L5dplIB5V0duDv12juQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Tom Ford 3">
+            <h3>Tom Ford Grey Vetiver</h3>
+            <p>Classic vetiver cologne with citrus and woods.</p>
+            <p class="price">₹5,799</p>
+            <button>Add to Cart</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="products">
+        <h2>Women's Perfume</h2>
+        <label for="womens-brand">Choose a brand:</label>
+        <select id="womens-brand">
+            <option value="all">All</option>
+            <option value="chanel">Chanel</option>
+            <option value="dior">Dior</option>
+            <option value="versace">Versace</option>
+            <option value="mk">Michael Kors</option>
+        </select>
+
+        <div class="product-grid" id="womens-products">
+            <div class="box" data-brand="chanel">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.hfzcssECDHyJdHBK_icziwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Chanel Perfume">
+                <h3>Chanel No. 5</h3>
+                <p>Iconic floral fragrance with aldehydes and jasmine.</p>
+                <p class="price">₹6,499</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="chanel">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.9GCIycM4aLhpuNjNpDZ4AgHaHj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Chanel Perfume 2">
+            <h3>Chanel Coco Mademoiselle</h3>
+            <p>Modern classic with orange, jasmine, and patchouli.</p>
+            <p class="price">₹7,199</p>
+            <button>Add to Cart</button>
+            </div>
+            
+            <div class="box" data-brand="chanel">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.LRx1ARp-Om0ZDo2HfBroBwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Chanel Perfume 3">
+            <h3>Chanel Chance</h3>
+            <p>Playful floral with pink pepper, jasmine, and amber.</p>
+            <p class="price">₹5,899</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="dior">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.5hHrcMu18K9uqvnGeo2zUAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Dior Perfume">
+                <h3>Dior J'adore</h3>
+                <p>Feminine fragrance with ylang-ylang, rose, and jasmine.</p>
+                <p class="price">₹5,899</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="dior">
+            <img src="https://product.hstatic.net/1000340570/product/miss-dior-eau-de-parfum-100ml_431edebb89c54115953eac01ff94b4ef_master.jpg" alt="Dior Perfume 2">
+            <h3>Dior Miss Dior</h3>
+            <p>Romantic fragrance with peony, rose, and musk.</p>
+            <p class="price">₹6,299</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="dior">
+            <img src="https://cdn.shopify.com/s/files/1/0259/7733/products/dior-poison-100ml-edt---2_1024x1024.png?v=1591755278" alt="Dior Perfume 3">
+            <h3>Dior Poison</h3>
+            <p>Mystical mix of plum, tuberose, and vanilla.</p>
+            <p class="price">₹6,899</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="versace">
+                <img src="https://cdn.shopify.com/s/files/1/0259/7733/products/versace_bright_crystal_200ml_1024x1024.png?v=1516827308" alt="Versace Perfume">
+                <h3>Versace Bright Crystal</h3>
+                <p>Fresh floral fragrance with peony, magnolia, and lotus.</p>
+                <p class="price">₹4,799</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="versace">
+            <img src="https://cdn.shopify.com/s/files/1/0259/7733/products/versace-dylan-blue-femme_1024x1024.png?v=1541905085" alt="Versace Perfume 2">
+            <h3>Versace Dylan Blue</h3>
+            <p>Bold fragrance with blackcurrant, rose, and woods.</p>
+            <p class="price">₹5,499</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="versace">
+            <img src="https://cdn.shopify.com/s/files/1/2170/5343/products/VERSACE-CRYSTAL-NOIR-Edt_1024x1024.png?v=1656920110" alt="Versace Perfume 3">
+            <h3>Versace Crystal Noir</h3>
+            <p>Dark, seductive blend of amber, gardenia, and musk.</p>
+            <p class="price">₹5,899</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="mk">
+                <img src="https://i5.walmartimages.com/seo/Michael-Kors-Glam-Jasmine-Eau-De-Parfum-Spray-Perfume-for-Women-1-oz_70a507a7-b1df-48a4-9401-70453a942319.be4a84ecb749855e0904c47719842e80.jpeg" alt="Michael Kors Perfume">
+                <h3>Michael Kors Glam</h3>
+                <p>Modern chic perfume with fruity, floral, and musk notes.</p>
+                <p class="price">₹3,999</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="mk">
+            <img src="https://i.notino.com/view/michael-kors/022548366448_01__6.jpg" alt="Michael Kors Perfume 2">
+            <h3>Michael Kors Wonderlust</h3>
+            <p>Exotic floral fragrance with almond milk and jasmine.</p>
+            <p class="price">₹4,599</p>
+            <button>Add to Cart</button>
+            </div>
+
+            <div class="box" data-brand="mk">
+            <img src="https://i.notino.com/view/michael-kors/mkosexw_aedp30_01__2.jpg" alt="Michael Kors Perfume 3">
+            <h3>Michael Kors Sexy Amber</h3>
+            <p>Warm amber, sandalwood, and musk for evenings.</p>
+            <p class="price">₹4,899</p>
+            <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+  <!-- About -->
+    <section class="about">
+        <h2>About Us</h2>
+        <p>
+            At <strong>Perfumy</strong>, we believe fragrances are more than just scents—
+            they are memories, emotions, and a reflection of who you are. 
+            Our curated collection brings together timeless classics and 
+            modern blends from around the world.
+        </p>
+        <p>
+            Whether you’re looking for everyday freshness or a signature luxury 
+            fragrance, Perfumy is your trusted destination.
+        </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>📞 +91 1234567890</p>
+        <p>📧 perfumy100@gmail.com</p>
+        <p>📍 Chennai, India</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Perfumy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
